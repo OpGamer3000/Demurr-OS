@@ -14,7 +14,7 @@ public class FileSystem {
 		try {
 			file_name = command[1];
 		} catch (Exception e) {
-			System.out.println("Please provide a filename");
+			System.out.println("Please provide a file name");
 		}
 		if (file_name.equals("")) {
 			file_name_valid = false;
@@ -43,7 +43,7 @@ public class FileSystem {
 		try {
 			file_name = command[1];
 		} catch (Exception e) {
-			System.out.println("Please enter a file/directory name");
+			System.out.println("Please provide a file name");
 		}
 		File file = new File(current_dir + file_name);
 		
@@ -65,7 +65,7 @@ public class FileSystem {
 		try {
 			tmp_dir = current_dir + command[1] + "/";
 		} catch (Exception e) {
-			System.out.println("Please enter a dir name");
+			System.out.println("Please provide a dir name");
 			return "ERR";
 		}
 		
@@ -103,9 +103,13 @@ public class FileSystem {
 	}
 	
 	public void mkdir(String command[], String current_dir) {
-		if(command[1].equals("disk")) {
-			System.out.println("name \"disk\" is reserved by the system");
-			return;
+		try {
+			if(command[1].equals("disk")) {
+				System.out.println("name \"disk\" is reserved by the system");
+				return;
+			}
+		} catch(Exception e) {
+			System.out.println("Please provide a folder name");
 		}
 		
 		File dir = new File(current_dir + command[1]);
