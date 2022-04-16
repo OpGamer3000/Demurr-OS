@@ -14,6 +14,8 @@ well u can help me here to solv some stuf if u want. that way u practice java an
 
 # Compilation
 Just run the **compile.bat** file. It will create the files for you
+for linux users use compile.sh
 
 # Execution
 Same with this, but here you need to run **run.bat**.
+for linux users use run.sh
