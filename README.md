@@ -13,9 +13,9 @@ nothing yet... remember: *this is just a project of my own.. i am not making som
 well u can help me here to solv some stuf if u want. that way u practice java and i get helped too! :)
 
 # Compilation
-Just run the **compile.bat** file. It will create the files for you
-for linux users use compile.sh
+Just run the **compile.bat** file. It will create the files for you<br>
+for linux users use compile.sh<br><br>
 
 # Execution
-Same with this, but here you need to run **run.bat**.
+Same with this, but here you need to run **run.bat**.<br>
 for linux users use run.sh
