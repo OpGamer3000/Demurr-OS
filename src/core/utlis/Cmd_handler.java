@@ -11,7 +11,7 @@ public class Cmd_handler {
 		if(command[0].equals("echo")) {
 			
 			for(int i = 1; i < command.length; i++) {
-				System.out.println(command[i] + " ");
+				System.out.print(command[i] + " ");
 			}
 			
 			System.out.println("\n");
