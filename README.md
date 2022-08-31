@@ -2,7 +2,7 @@
 A subsystem (ig) which is made with Java
 
 ## What is this?
-this is a subsystem made with java. stil in beta version!
+this is a subsystem made with java.
 
 ## Why making this?
 I once got hyped bout making real OS'es but got rekt. So i decided to make a subsystem using java (why java? cuz yes)
