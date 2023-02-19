@@ -1,4 +1,4 @@
-```suspended for now```
+```updates suspended for now```
 
 # Demurr-OS
 A subsystem (ig) which is made with Java
